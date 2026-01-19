@@ -1,0 +1,32 @@
+/* General Layout */
+body { font-family: 'Segoe UI', sans-serif; margin: 0; }
+
+/* Navigation */
+.nav-bar { background: #333; padding: 10px; }
+.nav-bar ul { display: flex; list-style: none; justify-content: center; margin: 0; }
+.nav-bar a { color: white; text-decoration: none; padding: 10px 20px; transition: 0.3s; }
+.nav-bar a:hover { color: #ffcc00; }
+
+/* Banner with Background Image */
+.banner {
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* Project Showcase */
+.project-showcase { padding: 40px; text-align: center; }
+.project-grid { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
+.project-card {
+    width: 200px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-transform: uppercase;
+    transition: transform 0.3s;
+}
+.project-card:hover { transform: scale(1.05); }
